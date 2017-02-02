@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4388bb420f4cbfdefd856a6c0007df11",
+    "content-hash": "0886b086b440571fe4107b79ee178da2",
     "packages": [
         {
             "name": "bantu/ini-get-wrapper",
@@ -903,6 +903,47 @@
             "time": "2014-10-12T19:18:40+00:00"
         },
         {
+            "name": "icewind/searchdav",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/icewind1991/SearchDAV.git",
+                "reference": "50b56db31b26ca9cd95e2dee0ae6a672d76ccb93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/icewind1991/SearchDAV/zipball/50b56db31b26ca9cd95e2dee0ae6a672d76ccb93",
+                "reference": "50b56db31b26ca9cd95e2dee0ae6a672d76ccb93",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "sabre/dav": "^3.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SearchDAV\\": "src/",
+                    "SearchDAV\\Test\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Robin Appelman",
+                    "email": "robin@icewind.nl"
+                }
+            ],
+            "description": "sabre/dav plugin to implement rfc5323 SEARCH",
+            "time": "2017-02-02T17:13:03+00:00"
+        },
+        {
             "name": "icewind/streams",
             "version": "0.5.2",
             "source": {
@@ -1317,7 +1358,7 @@
                 "css",
                 "minify"
             ],
-            "time": "2014-09-10T14:34:00+00:00"
+            "time": "2014-09-10 14:34:00"
         },
         {
             "name": "nikic/php-parser",
